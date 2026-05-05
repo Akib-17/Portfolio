@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal homepage of Md Akib – Computer Science student at BRAC University" />
+  <meta name="author" content="Md Akib" />
+  <title>Md Akib | Software Engineer & CS Student</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Dark/Light Toggle -->
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+    <span class="toggle-icon">☀</span>
+  </button>
+
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-logo">MA<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#links">Links</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="projects.html" class="nav-cta">Portfolio →</a>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="top">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="hero-tag">Computer Science · BRAC University · 2026</p>
+        <h1 class="hero-name">Md<br><em>Akib</em></h1>
+        <p class="hero-role">Full-Stack Developer &amp; Software Engineer</p>
+        <p class="hero-desc">Building clean, scalable web applications and data-driven solutions with Python, Java, and JavaScript.</p>
+        <div class="hero-cta-row">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-frame">
+          <img src="images/akib.jpg" alt="Photo of Md Akib" class="profile-photo" onerror="this.style.display='none'; document.querySelector('.photo-placeholder').style.display='flex'"/>
+          <div class="photo-placeholder" style="display:flex;">
+            <span class="initials-big">MA</span>
+          </div>
+        </div>
+        <div class="hero-badge">Open to Work</div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">scroll ↓</div>
+  </header>
+
+  <!-- Quote -->
+  <section class="quote-strip">
+    <blockquote>
+      <span class="quote-mark">"</span>First, solve the problem. Then, write the code.<span class="quote-mark">"</span>
+      <cite>— John Johnson</cite>
+    </blockquote>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a <strong>motivated Computer Science graduate</strong> (Expected June 2026) from <a href="https://www.bracu.ac.bd/" target="_blank" rel="noopener" class="inline-link">BRAC University</a>, Dhaka, Bangladesh. I have hands-on experience building full-stack web applications and data-driven software solutions.</p>
+          <p>Proficient in Python, Java, and JavaScript with a strong foundation in <em>data structures, algorithms,</em> and software engineering principles. Passionate about writing clean, scalable code and eager to contribute to an innovative engineering team.</p>
+          <p>Beyond academics, I'm a competitive programmer who has solved <strong>200+ problems</strong> on LeetCode and Codeforces, and served as <strong>Executive President</strong> of the Science Club of Rouf College, leading 300+ members and organizing national-level science festivals.</p>
+        </div>
+        <div class="about-info-box">
+          <h3>Personal Info</h3>
+          <ul class="info-list">
+            <li><span class="info-label">Name</span><span>Md Akib</span></li>
+            <li><span class="info-label">Location</span><span>Dhaka, Bangladesh</span></li>
+            <li><span class="info-label">Email</span><span><a href="mailto:ahsanakib20@email.com">ahsanakib20@email.com</a></span></li>
+            <li><span class="info-label">Phone</span><span>+880-1613522597</span></li>
+            <li><span class="info-label">GitHub</span><span><a href="https://github.com/Akib-17" target="_blank" rel="noopener">Akib-17</a></span></li>
+            <li><span class="info-label">LinkedIn</span><span><a href="https://www.linkedin.com/in/md-akib20/" target="_blank" rel="noopener">md-akib20</a></span></li>
+            <li><span class="info-label">Languages</span><span>Bengali (Native), English (Professional)</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2>Education</h2>
+      </div>
+      <div class="education-card">
+        <div class="edu-top">
+          <div>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p class="edu-school"><a href="https://www.bracu.ac.bd/" target="_blank" rel="noopener">BRAC University</a>, Dhaka, Bangladesh</p>
+          </div>
+          <span class="edu-badge">Expected June 2026</span>
+        </div>
+        <div class="edu-details">
+          <div class="edu-block">
+            <h4>Relevant Coursework</h4>
+            <div class="tag-cloud">
+              <span class="tag">Data Structures &amp; Algorithms</span>
+              <span class="tag">Operating Systems</span>
+              <span class="tag">Database Management Systems</span>
+              <span class="tag">Computer Networks</span>
+              <span class="tag">Software Engineering</span>
+              <span class="tag">Artificial Intelligence</span>
+              <span class="tag">System Analysis &amp; Design</span>
+            </div>
+          </div>
+          <div class="edu-block">
+            <h4>Thesis / Capstone</h4>
+            <p>Project Jotno</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h2>Technical Skills</h2>
+      </div>
+      <div class="skills-table-wrap">
+        <table class="skills-table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Technologies &amp; Tools</th>
+              <th>Proficiency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Languages</strong></td>
+              <td>Python, Java, C/C++, JavaScript, SQL</td>
+              <td><span class="bar"><span style="width:88%"></span></span></td>
+            </tr>
+            <tr>
+              <td><strong>Web Technologies</strong></td>
+              <td>
+                React.js, Node.js, Express.js, HTML5, CSS3, REST APIs
+              </td>
+              <td><span class="bar"><span style="width:82%"></span></span></td>
+            </tr>
+            <tr>
+              <td><strong>Databases</strong></td>
+              <td>MySQL, MongoDB</td>
+              <td><span class="bar"><span style="width:78%"></span></span></td>
+            </tr>
+            <tr>
+              <td><strong>Tools &amp; Platforms</strong></td>
+              <td>
+                Git, GitHub, VS Code, Linux/Unix,<br>
+                Docker (basic)
+              </td>
+              <td><span class="bar"><span style="width:75%"></span></span></td>
+            </tr>
+            <tr>
+              <td><strong>Core Concepts</strong></td>
+              <td colspan="2">
+                Data Structures &amp; Algorithms · Object-Oriented Programming · SDLC · Agile/Scrum methodology — these form the foundation that guides every line of code I write, ensuring robust, maintainable, and scalable software solutions.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h2>Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-year">Apr 2026</span>
+            <h3>Car Workshop Booking System</h3>
+            <div class="project-tags">
+              <span class="tag-sm">Node.js</span><span class="tag-sm">Express</span><span class="tag-sm">MongoDB</span><span class="tag-sm">REST API</span>
+            </div>
+          </div>
+          <ul class="project-details">
+            <li>Full-stack car workshop appointment booking system replacing legacy PHP/MySQL architecture.</li>
+            <li>Designed <strong>5 RESTful API endpoints</strong> with server-side validation, duplicate detection, and mechanical capacity enforcement.</li>
+            <li>Admin dashboard with live search, status filtering, and CRUD powered by MongoDB aggregation pipelines.</li>
+          </ul>
+          <a href="projects.html#car-workshop" class="project-link">View Details →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-year">Jan – Apr 2025</span>
+            <h3>Hostel Management System</h3>
+            <div class="project-tags">
+              <span class="tag-sm">PHP</span><span class="tag-sm">MySQL</span><span class="tag-sm">HTML/CSS</span>
+            </div>
+          </div>
+          <ul class="project-details">
+            <li>Multi-role web-based hostel system with separate portals for admin and students.</li>
+            <li>Student features: room booking, leave/visitor requests, maintenance reporting, account management.</li>
+            <li>Normalized relational database schema covering students, rooms, bookings, attendance, and more.</li>
+          </ul>
+          <a href="projects.html#hostel" class="project-link">View Details →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-year">Mar – Apr 2026</span>
+            <h3>Fitness Tracking App</h3>
+            <div class="project-tags">
+              <span class="tag-sm">Flutter</span><span class="tag-sm">Dart</span><span class="tag-sm">Provider</span><span class="tag-sm">fl_chart</span>
+            </div>
+          </div>
+          <ul class="project-details">
+            <li>Cross-platform mobile fitness app with 4 core screens following Provider + MVC architecture.</li>
+            <li>Real-time health stats (steps, calories, heart rate) with weekly activity bar charts via fl_chart.</li>
+            <li>Live workout tracking with session timer, exercise completion flow, and rest countdown.</li>
+          </ul>
+          <a href="projects.html#fitness" class="project-link">View Details →</a>
+        </article>
+
+      </div>
+      <div class="center-link">
+        <a href="projects.html" class="btn-primary">See All Projects →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Links & Interests -->
+  <section id="links" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <h2>Interests &amp; Links</h2>
+      </div>
+      <div class="links-grid">
+        <div class="link-category">
+          <h3>🏆 Competitive Programming</h3>
+          <ul>
+            <li><a href="https://leetcode.com/" target="_blank" rel="noopener">LeetCode</a> – 200+ problems solved</li>
+            <li><a href="https://codeforces.com/" target="_blank" rel="noopener">Codeforces</a> – Active competitive programmer</li>
+          </ul>
+        </div>
+        <div class="link-category">
+          <h3>🎓 University & Course</h3>
+          <ul>
+            <li><a href="https://www.bracu.ac.bd/" target="_blank" rel="noopener">BRAC University</a> – My university</li>
+            <li><a href="https://discord.gg/CSE391" target="_blank" rel="noopener">CSE 391 Discord</a> – Course community</li>
+            <li><a href="https://github.com/Akib-17" target="_blank" rel="noopener">My GitHub</a> – All my projects</li>
+          </ul>
+        </div>
+        <div class="link-category">
+          <h3>📚 Favourite Books & Things</h3>
+          <ul>
+            <li>Clean Code – Robert C. Martin</li>
+            <li>The Pragmatic Programmer</li>
+            <li>Introduction to Algorithms (CLRS)</li>
+            <li>Competitive Programming 3</li>
+            <li>You Don't Know JS</li>
+          </ul>
+        </div>
+        <div class="link-category">
+          <h3>🎬 Top Movies / Shows</h3>
+          <ol class="numbered-list">
+            <li>Interstellar</li>
+            <li>The Social Network</li>
+            <li>Mr. Robot (series)</li>
+            <li>Inception</li>
+            <li>Silicon Valley</li>
+            <li>Black Mirror</li>
+            <li>The Martian</li>
+            <li>Ex Machina</li>
+            <li>Halt and Catch Fire</li>
+            <li>Hackers (1995)</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">06</span>
+        <h2>Achievements &amp; Certifications</h2>
+      </div>
+      <div class="achievements-grid">
+        <div class="achieve-card">
+          <span class="achieve-icon">💻</span>
+          <h4>Competitive Programming</h4>
+          <p>Solved <strong>200+</strong> problems on LeetCode &amp; Codeforces. Participated in BracU Intra Programming Contest.</p>
+        </div>
+        <div class="achieve-card">
+          <span class="achieve-icon">🏛</span>
+          <h4>Executive President – SCRC</h4>
+          <p>Led the Science Club of Rouf College with <strong>300+ members</strong> and organized national-level science festivals.</p>
+        </div>
+        <div class="achieve-card">
+          <span class="achieve-icon">🏫</span>
+          <h4>BUCC Member</h4>
+          <p>Active member of the BRAC University Computer Club, engaging in tech events and community projects.</p>
+        </div>
+        <div class="achieve-card">
+          <span class="achieve-icon">📜</span>
+          <h4>Certifications</h4>
+          <p>Pathway to Software Engineering – Bohubrihi · Web Development – Udemy · Meta Front-End Developer Professional</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">07</span>
+        <h2>Get In Touch</h2>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <p>Have a project in mind, a question, or just want to connect? Feel free to reach out — I'm currently open to new opportunities and collaborations.</p>
+          <p>You can also email me directly at <a href="mailto:ahsanakib20@email.com" class="inline-link">ahsanakib20@email.com</a>.</p>
+        </div>
+        <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" name="subject" placeholder="Project inquiry, collaboration, etc." />
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" name="message" rows="5" placeholder="Tell me about your project or inquiry..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-submit">Send Message ✉</button>
+          <p class="form-success" id="formSuccess" style="display:none;">✅ Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <span class="footer-logo">MA<span class="dot">.</span></span>
+        <p>Md Akib &copy; <span id="year"></span>. All rights reserved.</p>
+      </div>
+      <div class="footer-nav">
+        <a href="#top">↑ Back to Top</a>
+        <a href="projects.html">Projects</a>
+        <a href="https://github.com/Akib-17" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/md-akib20/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="footer-meta" id="footerMeta"></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
